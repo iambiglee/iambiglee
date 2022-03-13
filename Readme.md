@@ -1,6 +1,6 @@
 Hello 🙂
 
-Barack Lee, A Java Developer.
+Barack Lee, A software engineer(Java,Go,Vue).
 
 I spent more time in English than programming during my college life😂.
 
