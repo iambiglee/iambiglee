@@ -1,9 +1,38 @@
-<mxfile host="app.diagrams.net" modified="2022-05-05T02:59:35.698Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="uSaQ-pJTbjTf9oG8V0K6" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-05T03:40:09.314Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="BrZAb8Z7C4psPVixAJ7S" version="16.6.4" type="github">
   <diagram name="Page-1" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="822" dy="1666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HaYp9pTR1pNP-sqBBFmg-98" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HaYp9pTR1pNP-sqBBFmg-96" target="HaYp9pTR1pNP-sqBBFmg-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HaYp9pTR1pNP-sqBBFmg-96" value="启动" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="80" y="30" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HaYp9pTR1pNP-sqBBFmg-100" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HaYp9pTR1pNP-sqBBFmg-97" target="HaYp9pTR1pNP-sqBBFmg-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HaYp9pTR1pNP-sqBBFmg-97" value="连接apollo" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="125" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HaYp9pTR1pNP-sqBBFmg-99" value="将配置信息放到map里面" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="265" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HaYp9pTR1pNP-sqBBFmg-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HaYp9pTR1pNP-sqBBFmg-99" target="HaYp9pTR1pNP-sqBBFmg-99">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="400" />
+              <mxPoint x="280" y="400" />
+              <mxPoint x="280" y="295" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HaYp9pTR1pNP-sqBBFmg-104" value="每5秒中，轮寻更新一次" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HaYp9pTR1pNP-sqBBFmg-103">
+          <mxGeometry x="-0.3682" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
